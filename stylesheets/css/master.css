@@ -4,7 +4,10 @@
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0; }
 
 #logo {
   display: flex;
@@ -14,6 +17,18 @@
   height: 100%;
   width: 305px;
   font-size: 3em; }
+
+.backgroundPic {
+  background-image: url("imgs/backgroundimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100vw; }
+
+.backgroundGradient {
+  background-image: linear-gradient(to bottom, #3B3322, #3D4C30);
+  height: 80vh;
+  width: 100vw; }
 
 .button {
   background-color: #FFF;
