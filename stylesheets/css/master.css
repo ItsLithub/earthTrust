@@ -1,7 +1,31 @@
 #navbar {
   background-color: #3B3322;
   height: 90px;
-  width: 100vw; }
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+#logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFF;
+  height: 100%;
+  width: 305px;
+  font-size: 3em; }
+
+.button {
+  background-color: #FFF;
+  height: 45px;
+  width: 180px;
+  margin: 0 24px 0 24px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3B3322;
+  font-size: 1.5em; }
 
 body {
   height: 100vh;
