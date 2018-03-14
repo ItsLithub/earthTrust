@@ -30,8 +30,8 @@
 }
 
 .backgroundGradient{
-  background-image: linear-gradient(to bottom,#3B3322 ,#3D4C30 );
-  height: 80vh;
+
+  height: 130vh;
   width: 100vw;
 }
 
@@ -48,7 +48,16 @@
   font-size: 1.5em;
 }
 
+.bodyText{
+  background-color: #FFF;
+  margin-top: -30px;
+  height: 100%;
+  width: 200px;
+  top: 0;
+}
+
 body{
   height: 100vh;
   width: 100vw;
+  background-image: linear-gradient(to bottom,#3B3322 ,#3D4C30 );
 }
