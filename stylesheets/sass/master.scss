@@ -49,15 +49,25 @@
 }
 
 .bodyText{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #3B3322;
   background-color: #FFF;
-  margin-top: -30px;
-  height: 100%;
-  width: 200px;
-  top: 0;
+  margin: -30px auto 0 auto;
+  height: 900px;
+  width: 80vw;
+  font-size: 2em;
+  text-align: center;
 }
 
 body{
-  height: 100vh;
+  height: 100%;
   width: 100vw;
-  background-image: linear-gradient(to bottom,#3B3322 ,#3D4C30 );
+  background-image: linear-gradient(to bottom, #3B3322 ,#3D4C30 );
+  font-family: 'Lato', sans-serif;
+}
+
+#bigfont{
+  font-size: 3em;
 }
