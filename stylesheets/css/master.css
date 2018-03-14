@@ -1,5 +1,4 @@
-//CORE SASS
-#navbar{
+#navbar {
   background-color: #3B3322;
   height: 90px;
   width: 100vw;
@@ -8,34 +7,29 @@
   align-items: center;
   position: fixed;
   top: 0;
-  left: 0;
-}
+  left: 0; }
 
-#logo{
+#logo {
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: #FFF;
   height: 100%;
   width: 305px;
-  font-size: 3em;
-}
+  font-size: 3em; }
 
-.backgroundPic{
+.backgroundPic {
   background-image: url("imgs/backgroundimg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  width: 100vw;
-}
+  width: 100vw; }
 
-.backgroundGradient{
-
+.backgroundGradient {
   height: 130vh;
-  width: 100vw;
-}
+  width: 100vw; }
 
-.button{
+.button {
   background-color: #FFF;
   height: 45px;
   width: 180px;
@@ -45,10 +39,9 @@
   justify-content: center;
   align-items: center;
   color: #3B3322;
-  font-size: 1.5em;
-}
+  font-size: 1.5em; }
 
-.bodyText{
+.bodyText {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -58,16 +51,13 @@
   height: 900px;
   width: 80vw;
   font-size: 2em;
-  text-align: center;
-}
+  text-align: center; }
 
-body{
+body {
   height: 100%;
   width: 100vw;
-  background-image: linear-gradient(to bottom, #3B3322 ,#3D4C30 );
-  font-family: 'Lato', sans-serif;
-}
+  background-image: linear-gradient(to bottom, #3B3322, #3D4C30);
+  font-family: 'Lato', sans-serif; }
 
-#bigfont{
-  font-size: 3em;
-}
+#bigfont {
+  font-size: 3em; }
